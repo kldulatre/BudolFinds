@@ -26,7 +26,7 @@ export default {
 
 
   buildModules: [
-    '@nuxtjs/eslint-module',
+    // '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss'
   ],
 
