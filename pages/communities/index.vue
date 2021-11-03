@@ -2,9 +2,11 @@
   <div class="p-5 space-y-2">
     <div class="flex justify-between block pb-2">
       <span class="text-3xl font-medium">Communities</span>
+      <NuxtLink to="/communities/create">
       <button class="bg-green-300 p-3 rounded-full text-xs">
         Create a Community
       </button>
+      </NuxtLink>
     </div>
     <div class="space-y-6 p-6 border rounded-lg">
       <div class="flex justify-between">
