@@ -17,6 +17,11 @@ export default {
 			return this.$store.state.user;
 		},
 	},
+	// watch: {
+	// 	data() {
+	// 		return this.$store.state.user;
+	// 	},
+	// },
 };
 </script>
 

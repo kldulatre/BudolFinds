@@ -35,6 +35,9 @@ export default {
 	asyncData() {
 		$nuxt.$fire.auth.signOut();
 	},
+	// created() {
+	// 	this.logout();
+	// },
 	data() {
 		return {
 			auth: {
@@ -48,6 +51,9 @@ export default {
 			const data = await this.$fire.auth.signInWithEmailAndPassword(this.auth.email, this.auth.password);
 			console.log(data.user.email);
 			this.$router.push("/");
+		},
+		async logout() {
+			this.$fire.auth.signOut();
 		},
 	},
 };
