@@ -7,6 +7,7 @@
 			<div class="block">
 				<span>Email Address</span>
 				<input type="text" class="block rounded-md border-gray-300 shadow-sm mt-1 w-full" placeholder="Enter email address" v-model="auth.email" />
+				<button class="bg-green-300 px-5 py-2 text-2xl">Next</button>
 			</div>
 			<div class="block">
 				<span>Password</span>

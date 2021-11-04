@@ -20,6 +20,7 @@ export default {
 
 
   plugins: [
+    '~/plugins/initFirebase.js'
   ],
 
 
@@ -55,7 +56,8 @@ export default {
               subscribeManually: false
             },
             ssr: false,
-          }
+          },
+          storage: true,
         }
       }
     ],
