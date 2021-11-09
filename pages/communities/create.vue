@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<div class="space-y-1">
-				<span class="uppercase tracking-wide text-gray-700 text-xs font-bold">Community Name</span>
+				<span class="uppercase tracking-wide text-gray-700 text-xs font-bold">Community Name *</span>
 				<input type="text" class="block rounded-md border-gray-300 shadow-sm w-full" placeholder="" />
 			</div>
 			<div class="space-y-2">
