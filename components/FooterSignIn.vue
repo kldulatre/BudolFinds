@@ -14,17 +14,14 @@
 		</div>
 		<div class="flex items-center justify-evenly shadow h-12 w-full border bg-white">
 			<NuxtLink to="/">
-				<IconsHome class="p-2" />
+				<IconsHome class="py-2 px-6" />
 			</NuxtLink>
 			<NuxtLink to="/communities">
-				<IconsCommunity class="p-2" />
+				<IconsCommunity class="py-2 px-6" />
 			</NuxtLink>
 			<NuxtLink to="/profile">
-				<IconsUser class="p-2" />
+				<IconsUser class="py-2 px-6" />
 			</NuxtLink>
-			<!-- <NuxtLink to="/post/create">
-			<IconsPlus />
-		</NuxtLink> -->
 		</div>
 	</div>
 </template>

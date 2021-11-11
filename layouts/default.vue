@@ -6,7 +6,8 @@
 			<SideBarLogout v-else class="w-4/12 hidden md:block" />
 			<Nuxt class="w-full md:w-8/12" />
 		</div>
-		<Footer />
+		<FooterSignIn v-if="data" />
+		<FooterLogout v-else />
 	</div>
 </template>
 
@@ -17,11 +18,6 @@ export default {
 			return this.$store.state.user;
 		},
 	},
-	// watch: {
-	// 	data() {
-	// 		return this.$store.state.user;
-	// 	},
-	// },
 };
 </script>
 

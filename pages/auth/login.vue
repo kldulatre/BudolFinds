@@ -1,6 +1,6 @@
 <template>
 	<div class="flex justify-center">
-		<form class="flex flex-col space-y-6 bg-gray-50 border rounded-md p-4 py-6 m-4 w-9/12 sm:w-96 sm:m-8 sm:p-8">
+		<form class="flex flex-col space-y-6 bg-gray-50 border rounded-md p-4 py-6 m-4 w-full md:w-9/12 sm:w-96 sm:m-8 sm:p-8">
 			<div class="flex justify-center">
 				<h1 class="text-2xl font-semibold">Welcome!</h1>
 			</div>
