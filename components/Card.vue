@@ -1,6 +1,14 @@
 <template>
 	<div class="flex border border-gray-200 bg-white rounded-lg m-2 p-5 space-x-4">
-		<img class="inline-block h-12 w-12 rounded-full" src="https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png" alt="" />
+		<div class="w-12 flex-shrink-0">
+			<NuxtLink to="/communities/philippines">
+				<img
+					class="inline-block h-12 w-12 rounded-full"
+					src="https://pbs.twimg.com/profile_images/1121328878142853120/e-rpjoJi_bigger.png"
+					alt=""
+				/>
+			</NuxtLink>
+		</div>
 		<div class="flex flex-col flex-grow space-y-3">
 			<div class="flex flex-col">
 				<span class="text-lg font-medium">Philippines</span>
