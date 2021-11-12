@@ -35,7 +35,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="m-2 py-6 px-4 border border-gray-300 rounded-lg space-y-2 bg-gray-50">
+		<div class="m-2 py-6 px-4 border border-gray-300 rounded-lg space-y-2 bg-gray-100">
 			<span class="block px-1 font-semibold">Wanna Share A Product?</span>
 			<div class="flex w-full border border-gray-400 rounded-lg">
 				<input type="text" class="w-full rounded-l-lg border-none" placeholder="Paste Url Here" />
